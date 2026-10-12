@@ -1,0 +1,37 @@
+name: Неточность или свежие данные
+description: Сообщить об ошибке, устаревшей цифре или предложить более свежий источник
+title: "[Блок NN] Коротко о проблеме"
+labels: ["неточность"]
+body:
+  - type: dropdown
+    id: block
+    attributes:
+      label: Блок
+      options: ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15"]
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Что сейчас написано
+      description: Процитируйте фрагмент курса
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Как должно быть
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Источник
+      description: Ссылка на первоисточник – без неё исправление не принимается
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Как упомянуть вас в курсе
+      description: Имя и ссылка, если хотите упоминания

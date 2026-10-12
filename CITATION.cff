@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Если используете материалы курса, укажите автора и ссылку на курс."
+title: "Внедрение ИИ в разработку: курс для CTO и лидов"
+type: generic
+authors:
+  - family-names: "Кононов"
+    given-names: "Юрий"
+    website: "https://ykononov.ru/"
+date-released: 2026-10-12
+license: CC-BY-NC-4.0
+url: "https://ykononov.ru/ai-cto/"
+repository-code: "https://github.com/yknnv/ai-cto-ru"
+keywords:
+  - внедрение ИИ в разработку
+  - ИИ-агенты
+  - CTO
+  - метрики DORA
+  - spec-driven development
+  - Claude Code
